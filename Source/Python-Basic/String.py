@@ -59,3 +59,6 @@ last_name = "Saputro"
 
 print(f"Hello {first_name} {last_name}")
 print(f"Last Name is {last_name}")
+
+# TODO : Coding Exercise Check-in: Python Strings
+# ? TASK: Print the second word of the string "I love programming with python!" with all letters in UPPERCASE.
