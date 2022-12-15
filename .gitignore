@@ -6,6 +6,9 @@
 !.vscode/*.code-snippets
 .idea
 
+# Ignore Mac system files
+.DS_store
+
 # Local History for Visual Studio Code
 .history/
 
