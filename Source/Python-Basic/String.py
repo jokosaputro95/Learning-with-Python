@@ -62,3 +62,6 @@ print(f"Last Name is {last_name}")
 
 # TODO : Coding Exercise Check-in: Python Strings
 # ? TASK: Print the second word of the string "I love programming with python!" with all letters in UPPERCASE.
+# Aswere :
+myStr = "I love programming with python!"
+print(myStr[2:6].upper())
