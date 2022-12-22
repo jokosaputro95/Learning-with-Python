@@ -26,6 +26,13 @@ angka = str(angka)
 print(angka)
 print(type(angka))
 
+# * String Formatting
+"""
+Python menggunakan pemformatan String gaya-C untuk membuat string baru yang diformatnya dengan menggunakan simbol
+'%'. Operator '%' digunakan untuk memformat sekumpulan variable yang terlampir dalam 'TUple' (list ukuran tetap),
+bersama dengan string format, yang berisi teks normal dengan 'penentu argumen' seperti simbol khusus '%d', '%s'. 
+"""
+
 # * Manipulasi String menggunakan fungsi yang tersedia
 print("\nManipulasi String")
 myString = "Selamat Belajar Bahasa Python!"
@@ -63,5 +70,6 @@ print(f"Last Name is {last_name}")
 # TODO : Coding Exercise Check-in: Python Strings
 # ? TASK: Print the second word of the string "I love programming with python!" with all letters in UPPERCASE.
 # Aswere :
-myStr = "I love programming with python!"
+myStr = "I love programming with python, end of " + str(2022) + " I will master python"
 print(myStr[2:6].upper())
+print(myStr)
