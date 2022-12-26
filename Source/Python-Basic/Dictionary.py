@@ -257,9 +257,11 @@ myDict = {
     "key1": 100,
     "key2": 200,
     "key3": 300,
-    "key4": 400
+    "key4": 400,
 }
 # * Your Code Goes Here
+myDict["key5"] = 500
+print(myDict.items())
 
 # TODO 2 : Coding Exercise Check-in: Python Dictionaries
 # ? Add "Jhon" to the phonebook with the phone number 8127882119, and remove Jake from the phonebook
