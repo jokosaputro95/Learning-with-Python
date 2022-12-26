@@ -2,7 +2,7 @@
 * Dalam Python versi 3.7 Dictionary adalah kumpulan pasangan yang diurutkan berdasarkan 'Key: Value'
 * Dalam dokumentasi Python 3 Operasi utama pada Dictionary adalah menyimpan nilai dengan beberapa
 * kunci dan mengekstrak nilai yang diberikan kunci tersebut. Dimungkinkan juga untuk menghapus key:value dengan kunci del
-* Dictionary merupakan kumpula yang dibuat, dapat diubah dan tidak mungkin adanya duplikat
+* Dictionary merupakan kumpulan yang dibuat, dapat diubah dan tidak mungkin adanya duplikat
 * Dictionary ditulis dengan kurawa dan memiliki kunci dan nilai.
 * Dictionary juga tipe data yang mirip dengan array tetapi bekerja dengan key dan value
 * Setiap nilai yang disimpan dapat diakses dengan menggunakan kunci yang merupakan jenis objek apapun seperti string, number, list dan sebagainya
@@ -269,7 +269,8 @@ phonebook = {
     "Jake": 8127782192
 }
 # * Your Code Goes Here
- 
+phonebook["Jhon"] = 8127882119  
+del phonebook["Jake"] 
 
 # * Testing Code
 if "Jhon" in phonebook and "Jake" not in phonebook:
