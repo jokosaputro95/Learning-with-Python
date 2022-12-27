@@ -86,4 +86,3 @@ print(f"Abodemen            : Rp. {service['abn']}")
 print(f"Biaya percakapan    : Rp. {rp_cakap}")
 print(f"Biaya SMS           : Rp. {rp_sms}")
 print(f"Total tagihan       : Rp. {t_tagih}")
-
