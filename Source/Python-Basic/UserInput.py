@@ -6,6 +6,7 @@
 * jika kita ingin mendapatkan hasilnya bertipe data lain seperti integer atau float maka kita dapat mengkombinasikan
 * -> fungsi / method input() dengan fungsi int() atau dengan fungsi float()
 """
+
 # * Input User
 print("Input User Output String")
 phonebook = input("Enter your number phone: ")
@@ -33,7 +34,14 @@ print(f"Tipe data dari varibel phonebook adalah: {type(phonebook)}")
 # ? * output : Jarak tempuh                 : <kecepatan> * <waktu> = <jarak> km
 
 # * Your Code Goes Here
+print("\n============= DATA KECEPATAN MOBIL =============")
+kecepatan = int(input("Masukan kecepatan rata-rata (km/jam): "))
+waktu = int(input("Masukan watku tempuh (jam): "))
+jarak = kecepatan * waktu
 
+print(f"Kecepatan rata-rata (km/jam): {kecepatan}")
+print(f"Waktu tempuh (jam): {waktu}")
+print(f"Jarak tempuh: {jarak} km")
 
 # TODO 2 : Coding Exercise Check-in: Python User Input
 # ? Sebuah operator "XYZ" paca bayar menerapkan tarif service sebegai berikut:
@@ -53,4 +61,29 @@ print(f"Tipe data dari varibel phonebook adalah: {type(phonebook)}")
 # ? * output : Total Tagihan    : <t_tagih>
 
 # * Your Code Goes Here
+print("\n============= PROGRAM MENGHITUNG TAGIHAN TELEPON =============")
+service = {
+    "percakapan": 1000,
+    "SMS" : 300,
+    "abn": 20000
+}
+
+nama = input("Masukkan Nama Pelanggan: ")
+cakap = int(input("Masukkan Jumlah Percakapan (menit): "))
+sms = int(input("Masukkan Jumlah SMS (kali): "))
+
+rp_cakap = cakap * service["percakapan"]
+rp_sms = sms * service["SMS"]
+t_tagih = service["abn"] + rp_cakap + rp_sms
+
+print("\nDATA PELANGGAN")
+print(f"Nama Pelanggan      : {nama}")
+print(f"Percakapan          : {cakap} menit")
+print(f"SMS                 : {sms} kali")
+
+print("\nTAGIHAN")
+print(f"Abodemen            : Rp. {service['abn']}")
+print(f"Biaya percakapan    : Rp. {rp_cakap}")
+print(f"Biaya SMS           : Rp. {rp_sms}")
+print(f"Total tagihan       : Rp. {t_tagih}")
 
