@@ -50,7 +50,7 @@ print(f"Jarak tempuh: {jarak} km")
 # ? - Abodemen = Rp. 20000/bulan
 # ? TASK : Buatlah program menghitung besar tagihan telepon dengan Input:
 # ? * variabel : nama, percakapan, SMS
-# ? Title : DATA PELANGGAN
+# ? TITLE : DATA PELANGGAN
 # ? * output : Nama Pelanggan   : <nama>
 # ? * output : Percakapan       : <cakap> menit
 # ? * output : SMS              : <sms> kali
