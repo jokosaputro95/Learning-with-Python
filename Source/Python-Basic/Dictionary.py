@@ -248,9 +248,6 @@ print(my_list[:3])
 nilai = myDict["B"]
 print(f"Nilai kamu adalah: {nilai[1]}")
 
-
-
-
 # TODO 1 : Coding Exercise Check-in: Python Dictionaries
 # ? TASK: Add the key-value pair "key5", 500 to the dictionary defined below, then print all key-value pairs of the updated dictionary.
 myDict = {
