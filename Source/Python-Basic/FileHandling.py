@@ -1,4 +1,5 @@
 """
+Ref : https://www.geeksforgeeks.org/delete-a-directory-or-file-using-python/
 * Penanganan file adalah bagian penting dari sebuah aplikasi
 * Python memiliki beberapa fungsi untuk membuat, membaca, memperbaharui dan menghapus file
 * Kunci fungsi yang digunakan untuk penangan berkas / file di Python adalah fungsi open()
@@ -122,19 +123,31 @@ print(type(f))
 print("\nMenghapus file")
 import os
 import shutil
-if os.path.exists("demofile.txt"):
-    os.remove("demofile.txt")
-    print("File Has Been Removed Successfully")
-else:
-    print("The file does not exist")
+# if os.path.exists("demofile.txt"):
+#     os.remove("demofile.txt")
+#     print("File Has Been Removed Successfully")
+# else:
+#     print("The file does not exist")
 
-# * Menghapus folder
-print("\nMenghapus folder")
-directory = "file"
-parrent = "/Users/peduthui/Documents/Activity/Kerja/Ngajar/UBK/Tahun Akademik/2022-2023/Ganjil/Matkul/Algoritma dan Pemrograman/Learning-with-Python/Source"
-paths = os.path.join(parrent, directory)
-if os.path.isdir(paths):
-    shutil.rmtree(paths)
-    print(f"folder {directory} berhasil hapus")
-else:
-    print("tidak ada folder yang berhasil di hapus")
+# * Menghapus folder yang berisi file
+# print("\nMenghapus folder berisi file")
+# directory = "file"
+# parrent = "/Users/peduthui/Documents/Activity/Kerja/Ngajar/UBK/Tahun Akademik/2022-2023/Ganjil/Matkul/Algoritma dan Pemrograman/Learning-with-Python/Source"
+# paths = os.path.join(parrent, directory)
+# if os.path.isdir(paths):
+#     shutil.rmtree(paths)
+#     print(f"folder {directory} berhasil hapus")
+# else:
+#     print("tidak ada folder yang berhasil di hapus")
+
+# # * Menghapus folder kosong
+# print("\nMenghapus folder")
+# direc = "testFileKosong"
+# location = "/Users/peduthui/Documents/Activity/Kerja/Ngajar/UBK/Tahun Akademik/2022-2023/Ganjil/Matkul/Algoritma dan Pemrograman/Learning-with-Python/Source/Python-Basic"
+# paths = os.path.join(location, direc)
+# try:
+#     os.rmdir(paths)
+#     print(f"Folder {direc} berhasil di hapus")
+# except OSError as error:
+#     print(error)
+#     print(f"Folder tidak bisa di hapus")
